@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
 }
-
 a {
 	text-decoration: none;
 }
@@ -51,7 +50,7 @@ td {
 	font-size: 28px;
 }
 .dropdown-menu {
-	color: white!important;
+	color: white !important;
 	background-color: black;
 	font-family: 'Sen', sans-serif;
 	text-transform: uppercase;
