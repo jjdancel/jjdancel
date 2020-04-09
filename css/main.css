@@ -59,7 +59,7 @@ td {
 	color: white !important;
 }
 .dropdown-item {
-	color: white;
+	color: white !important;
 }
 .bg-dark {
 	background-color: black !important;
