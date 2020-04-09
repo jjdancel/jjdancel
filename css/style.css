@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-family: 'Sen', sans-serif;
+	font-size: 85px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 25px;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;	
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+	color: white !important;
+	text-shadow: 2px 2px 2px #000000;
+	letter-spacing: 1px;
+	font-family: 'Sen', sans-serif;
+}
+.navbar-nav a:hover {
+	outline: 2px solid #FFFFFF;
+}
+.navbar-nav a:focus {
+	background-color: black;
+	color: white;
+}
+.navbar-brand {
+	font-family: 'Sen', sans-serif;
+	letter-spacing: 4px;
+	color: red !important;
+	font-size: 28px;
+}
+.bg-dark {
+	background-color: black !important;
+}
+.intro {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('images/intro.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+.dropdown-menu {
+	color: white;
+	background-color: black;
+	font-family: 'Sen', sans-serif;
+	text-transform: uppercase;
+}
+.dropdown-item {
+	color: white;
+}
+.restaurant-name {
+	color: white;
+	display: inline-flex;
+	text-align: center;
+	padding: 100px;
+	letter-spacing: 6px;	
+	text-shadow: 9px 6px 3px #000000;
+	display: inline-flex;
+	padding: 0 0 0 13px;
+}
+.lead {
+	color: white;
+	font-size: 30px;
+	background-color: #181411;
+	display: inline-flex;
+	text-align: center;
+	padding: 0 0 0 13px;
+	letter-spacing: 6px;
+}
+#reservations-bg {
+	background-color: #ebefff;
+}
+.reservations-section {
+	padding: 30px 35px 60px;
+}
+.make-reservations {
+	width: 80%;
+	padding: 35px;
+}
+.existing-reservations {
+	width: 80%;
+	padding: 25px;
+}
+.reserve-now {
+	background-color: red;
+	color: white;
+	font-family: 'Sen', sans-serif;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.reserve-now a:link, a:visited, a:hover, a:active  {
+	text-decoration: none;
+	color: white;
+}
+#map {
+	padding: 100px 35px 0;
+}
+.all-sections {
+	padding: 70px 35px 60px;
+}
+footer {
+	padding: 20px;
+	background-color: black;
+	color: white;
+	font-family: 'Sen', sans-serif;
+} 
+.footer-titles {
+	color: red;
+}
+.footer-links a:link {
+	color: white;
+	text-decoration: none;
+}
+.footer-links a:hover {
+	color: red;
+}

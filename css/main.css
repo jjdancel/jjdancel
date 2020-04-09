@@ -1,0 +1,178 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Sen', sans-serif;
+	font-size: 85px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 25px;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;	
+}
+h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+td {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+.nav-link {
+	color: white !important;
+	text-shadow: 2px 2px 2px #000000;
+	letter-spacing: 1px;
+	font-family: 'Sen', sans-serif;
+}
+.navbar-nav a:hover {
+	outline: 2px solid #FFFFFF;
+}
+.navbar-nav a:focus {
+	background-color: black;
+	color: white;
+}
+.navbar-brand {
+	font-family: 'Sen', sans-serif;
+	letter-spacing: 4px;
+	color: red !important;
+	font-size: 28px;
+}
+.dropdown-menu {
+	color: white!important;
+	background-color: black;
+	font-family: 'Sen', sans-serif;
+	text-transform: uppercase;
+}
+.bg-dark {
+	background-color: black !important;
+}
+.transparent {
+	background: transparent;
+}
+.intro {
+  height: 50%;
+  min-height: 350px;
+  background-image: url('images/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+}
+.menu-info {
+	padding: 10px;
+	font-family: 'Sen', sans-serif;
+	color: #353535;
+}
+.menu-title {
+	font-family: 'Sen', sans-serif;
+}
+.menu-description {
+	font-family: 'Sen', sans-serif;
+	font-size: 14px;
+}
+.list-group-item.active {
+	background-color: black;
+	border-color: black;
+}
+.list-group-item {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: 'Sen', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.scrollspy-menu {
+	height: 500px;
+	position: relative;
+	overflow: auto;
+}
+.restaurant-name {
+	color: white;
+	display: inline-flex;
+	text-align: center;
+	padding: 100px;
+	letter-spacing: 6px;	
+	text-shadow: 9px 6px 3px #000000;
+	display: inline-flex;
+	padding: 0 0 0 13px;
+}
+.restaurant-name > h1 {
+	text-shadow: 2px 2px 8px black;
+}
+.lead {
+	color: white;
+	font-size: 30px;
+	background-color: #181411;
+	display: inline-flex;
+	text-align: center;
+	padding: 0 0 0 13px;
+	letter-spacing: 6px;
+}
+.line {
+	background-color: red;
+}
+.reservations-section {
+	padding: 30px 35px 60px;
+}
+.make-reservations {
+	width: 80%;
+	padding: 35px;
+}
+.existing-reservations {
+	width: 80%;
+	padding: 25px;
+}
+.reserve-now {
+	background-color: red;
+	color: white;
+	font-family: 'Sen', sans-serif;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.reserve-now a:link, a:visited, a:hover, a:active  {
+	text-decoration: none;
+	color: white;
+}
+.food {
+	width: 50%;
+	height: 50%;
+}
+#map {
+	padding: 100px 35px;
+	height: 70vh;
+	width: 90vh;
+}
+.all-sections {
+	padding: 70px 35px 60px;
+}
+footer {
+	padding: 20px;
+	background-color: black;
+	color: white;
+	font-family: 'Sen', sans-serif;
+} 
+.footer-titles {
+	color: red;
+}
+.footer-links a:link {
+	color: white;
+	text-decoration: none;
+}
+.footer-links a:hover {
+	color: red;
+}

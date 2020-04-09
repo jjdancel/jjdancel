@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Seoul Garden is a Korean BBQ Restaurant in Dallas">
+<meta name="keywords" content="Korean BBQ Restaurant,Korean BBQ Dallas, BBQ Dallas">
+<title>Final Project - Menu</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Sen&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="icon" type="text/css" href="css/images/favicon.png">
+<script src="https://kit.fontawesome.com/f0b8bb4389.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top"> 
+  <div class="container">
+    <a class="navbar-brand text-uppercase font-weight-bold" href="index.html" >Seoul Garden</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon toggler-color"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link mx-4 text-uppercase font-weight-bold link-active" href="index.html">Home
+          	<span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+		    <a class="nav-link dropdown-toggle text-uppercase font-weight-bold mx-4" data-toggle="dropdown" href="menu.html" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+		    <div class="dropdown-menu">
+		      <a class="dropdown-item" href="menu.html#appetizer">Appetizer</a>
+		      <a class="dropdown-item" href="menu.html#soup">Soup</a>
+		      <a class="dropdown-item" href="menu.html#stew">Stew</a>
+		      <div class="dropdown-divider"></div>
+		      <a class="dropdown-item" href="menu.html#lunch-special">Lunch Special</a>
+		      <a class="dropdown-item" href="menu.html#bbq">BBQ</a>
+		      <a class="dropdown-item" href="menu.html#hotpot">Hot Pot</a>
+		      <div class="dropdown-divider"></div>
+		      <a class="dropdown-item" href="menu.html#noodles">Noodles</a>
+		      <a class="dropdown-item" href="menu.html#bibimbap">Bibimbap</a>
+		      <a class="dropdown-item" href="menu.html#seafood">Seafood</a>
+		      <a class="dropdown-item" href="menu.html#cultural-cuisine">Cultural Cuisine</a>
+		      <div class="dropdown-divider"></div>
+		      <a class="dropdown-item" href="menu.html#drinks">Drinks</a>
+		    </div>
+  		</li>
+        <li class="nav-item">
+          <a class="nav-link mx-4 text-uppercase font-weight-bold" href="reservations.html">Reservations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-4 text-uppercase font-weight-bold" href="locations.html">Locations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-4 text-uppercase font-weight-bold" href="aboutUs.html">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End of Navbar -->
+<!-- Header -->
+<header class="intro">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center intro-text">
+        <h1 class="restaurant-name text-uppercase font-weight-bold">Seoul Garden</h1>
+        <br>
+        <p class="lead">Korean BBQ Restaurant</p>
+        <br>
+        <a href="reservations.html" class="reserve-now text-center font-weight-bold text-uppercase">Make a Reservation Online</a>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End of Header -->
+<!-- Menu -->
+<section class="py-5 all-sections"> 
+	<div class="container">
+		<h1 class="text-center text-uppercase display-3">Menu</h1>
+		<div class="row">
+		  <div class="col-4">
+		    <div id="listed-menu" class="list-group">
+		      <a class="list-group-item list-group-item-action" href="#appetizer">Appetizers</a>
+		      <a class="list-group-item list-group-item-action" href="#soup">Soup</a>
+		      <a class="list-group-item list-group-item-action" href="#stew">Stew</a>
+		      <a class="list-group-item list-group-item-action" href="#lunch-special">Lunch Special</a>
+		      <a class="list-group-item list-group-item-action" href="#bbq">BBQ</a>
+		      <a class="list-group-item list-group-item-action" href="#hotpot">Hot Pot</a>
+		      <a class="list-group-item list-group-item-action" href="#noodles">Noodles</a>
+		      <a class="list-group-item list-group-item-action" href="#bibimbap">Bibimbap</a>
+		      <a class="list-group-item list-group-item-action" href="#seafood">Seafood</a>
+		      <a class="list-group-item list-group-item-action" href="#cultural-cuisine">Cultural Cuisine</a>
+		      <a class="list-group-item list-group-item-action" href="#drinks">Drinks</a>
+		    </div>
+		  </div>
+		  <div class="col-8">
+		  	<div class="container scrollspy-menu">
+		    <div data-spy="scroll" data-target="#listed-menu" data-offset="0" class=" z-depth-1">
+		      <h2 id="appetizer" class="text-uppercase font-weight-bold">Appetizers</h2>
+		      <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 200px;">
+		       <br>
+			      <h4 class="text-uppercase menu-title">A1. Haemul Pajun <i class="fas fa-dollar-sign"></i> 14.99</h4>
+			      <p>Korean Style pancake with seafood &#38; vegetables</p>
+			      <h4 class="text-uppercase menu-title">A2. Gochu Pajun <i class="fas fa-dollar-sign"></i> 14.99 </h4>
+			      <p>Korean Style pancake with green onion, green hot pepper, and assorted seafood</p>
+			      <h4 class="text-uppercase menu-title">A3. Kimchi Jun <i class="fas fa-dollar-sign"></i> 12.99</h4>
+			      <p>Korean Style pancake with kimchi</p>
+			      <h4 class="text-uppercase menu-title">A4. Gul Pajun <i class="fas fa-dollar-sign"></i> 15.99 </h4>
+			      <p>Korean Style panckake with onion, oyster and seafood</p>
+			      <h4 class="text-uppercase menu-title">A5. Mandu Gui <i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Pan-fried dumplings</p>
+		        <br>
+		      <h2 id="soup" class="text-uppercase font-weight-bold">Soup</h2>
+		      <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 95px;">
+		        <br>
+			      <h4 class="text-uppercase menu-title">SP1. GALBI TANG <i class="fas fa-dollar-sign"></i> 14.99</h4>
+			      <p>Clear and hearty soup made by slowly simmering beef short ribs</p>
+			      <h4 class="text-uppercase menu-title">SP2. Yukgaejang <i class="fas fa-dollar-sign"></i> 13.99 </h4>
+			      <p>Thick spicy soup made with shredded beef, bean sprouts, and dried bracken fern</p>
+			      <h4 class="text-uppercase menu-title">SP3. Mandu Guk <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Boiling soup of thin-skinned dumplings filled with minced meat and vegetables</p>
+			      <h4 class="text-uppercase menu-title">SP4. Tteok Guk <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Thinly slice rice cake soup with beef broth, and with egg garnish</p>
+			      <h4 class="text-uppercase menu-title">SP5. Tteok Mandu Guk <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Boiling soup of thinly sliced rice cake with thin-skinned dumplings filled with minced meat and vegetables</p>
+			      <h4 class="text-uppercase menu-title">SP6. Ugeoji Haejang Guk <i class="fas fa-dollar-sign"></i> 14.99</h4>
+			      <p>A "Hangover Cure" in Korean Cuisine with dried napa cabbage in a hearty beef broth</p>
+			      <h4 class="text-uppercase menu-title">SP7. Buguh Kongnamul Guk <i class="fas fa-dollar-sign"></i> 12.99</h4>
+			      <p>Bean sprout soup with dried pollack slices</p>
+			      <h4 class="text-uppercase menu-title">SP8. Yumso Tang <i class="fas fa-dollar-sign"></i> 14.99</h4>
+			      <p>Thick spicy soup with goat and vegetables</p>
+			  <br>
+		      <h2 id="stew" class="text-uppercase font-weight-bold">Stew</h2>
+		      <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 95px;">
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">ST1. Soontofu Jjigae <i class="fas fa-dollar-sign"></i> 12.99</h4>
+			      <p>Spicy thick stew made with uncurdled soft tofu and egg, with your choice of seafood or beef serving piping hot in an earthenware pot</p>
+			      <h4 class="text-uppercase menu-title">ST2. Kimchi Jjigae <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Spicy stew made with kimchi and tofu with your choice of beef or pork</p>
+			      <h4 class="text-uppercase menu-title">ST3. Deonjang Jjigae <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Stew made with soybean soybean paste, tofu, and a variety of vegetables, served piping hot pot in anearthenware pot</p>
+			    <br>
+		      <h2 id="lunch-special" class="text-uppercase font-weight-bold">Lunch Special</h2>
+		      <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 270px;">
+		      <h3 class="text-uppercase">Monday-Saturday 11:00AM - 3:00PM *Except on National Holidays</h3>
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">L1. Bulgogi <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Grilled sliced beef tender siloin marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">L2. Jeyuk Gui <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Grilled sliced pork in hot spicy sauce</p>
+			      <h4 class="text-uppercase menu-title">L3. Galbi Gui <i class="fas fa-dollar-sign"></i> 14.99</h4>
+			      <p>Grilled beef short ribs marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">L4. Dak Gui <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Grilled boneless chicken marinated in hot spicy sauce</p>
+			      <h4 class="text-uppercase menu-title">L5. Chicken Teriyaki <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Grilled boneless chicken with teriyaki sauce</p>
+			      <h4 class="text-uppercase menu-title">L6. Steak Teriyaki <i class="fas fa-dollar-sign"></i>13.99</h4>
+			      <p>Grilled rib eye steak glazed with teriyaki sauce</p>
+			      <h4 class="text-uppercase menu-title">L7. Salmon Teriyaki <i class="fas fa-dollar-sign"></i>11.99</h4>
+			      <p>Grilled salmon glaxed with teriyaki sauce</p>
+			      <h4 class="text-uppercase menu-title">L8. Galbi Gui + Naeng Myon <i class="fas fa-dollar-sign"></i>18.99</h4>
+			      <p>Combination of grilled beef short ribs marinated in house special sauce &#38; refreshing cold noodles made from buckwheat</p>
+			      <h4 class="text-uppercase menu-title">L9. Bulgogi + Naeng Myon <i class="fas fa-dollar-sign"></i> 16.99</h4>
+			      <p>Combination of grilled sliced beef sirloin & refreshing cold noodles made from buckwheat</p>
+			      <h4 class="text-uppercase menu-title">L10. Naeng Myon(Additional Noodles for $3) <i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Cold noodles made from buckwheat served in a chilled beef broth topped with sliced beef briskets and vegetables, or served with spicy red pepper dressing</p>
+			      <h4 class="text-uppercase menu-title">L11. Haemul Kalkugsu <i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Thick noodles with seafood and vegetables</p>
+			      <h4 class="text-uppercase menu-title">L12. Bibimbap (w/ Beef or Chicken) <i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Warm white rice topped with sauteed and seasoned vegetables and beef of chicken, topped with sunny side up egg usually mixed with red pepper paste</p>
+			      <h4 class="text-uppercase menu-title">L13. Dolpan Bibimbap (w/ Beef or Chicken) <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Bibimbap in a sizzling stone pot with your chocie of beef or chicken, mixed with red pepper paste</p>
+			      <h4 class="text-uppercase menu-title">L14. Nak Ji Dolsot Bibimbap <i class="fas fa-dollar-sign"></i> 13.99</h4>
+			      <p>Bibimbap in a sizzling stone pot with octopus and vegetables stir-fried together, usually mixed with red pepper paste</p>
+			      <h4 class="text-uppercase menu-title">L15. Galbisal Dolsot Bibimbap <i class="fas fa-dollar-sign"></i> 13.99</h4>
+			      <p>Bibimbap in a sizzling stone pot with boneless prime rib chucks and vegetables stir-fried together usually mixed with red pepper paste</p>
+			      <h4 class="text-uppercase menu-title">L16. Doenjang Jjigae <i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Stew made with soybean paste, tofu, and vetiery of vegetables served pipping hot in an eathenware pot</p>
+			      <h4 class="text-uppercase menu-title">L17. Kimchi Jjigae <i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Spicy stew made with kimchi and tofu with your choice of beef or pork</p>
+			      <h4 class="text-uppercase menu-title">L18. Soon Todu Jjigae(w/ Seafood or Beef)<i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Spicy thick stew made of uncuredled tofu and egg with your choice of seafood or beef served pipping hot in an earthen pot</p>
+			      <h4 class="text-uppercase menu-title">L19. Tofu Jjigae <i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Spicy stew of hard tofu with seafood</p>
+			      <h4 class="text-uppercase menu-title">L20. Galbi Tang <i class="fas fa-dollar-sign"></i> 12.99</h4>
+			      <p>Clear and hearty soup made by slowly simmering beef short ribs</p>
+			      <h4 class="text-uppercase menu-title">L21. Yukgaejang <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Thick spicy soup with shredded beef, bean sprouts, and dried bracken fem</p>
+			      <h4 class="text-uppercase menu-title">L22. Mandu Guk<i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Boiling soup of thick-skinned dumpling filled with minced meat and vegetables</p>
+			      <h4 class="text-uppercase menu-title">L23. Tteok Guk <i class="fas fa-dollar-sign"></i> 9.99</h4>
+			      <p>Thinly sliced rice cake soup with beef brooth with egg garnish</p>
+			      <h4 class="text-uppercase menu-title">L24. Tteok Mandu Guk <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Thinly sliced rice cake &#38; dumpling soup with beef broth</p>
+			      <h4 class="text-uppercase menu-title">L25. Ugeoji Haejang Guk <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>A "Hangover Cure" in Korean cuisine with dried napa cabbage in a hearty beef broth</p>
+			      <h4 class="text-uppercase menu-title">L26. Jogae Shigeumchi Guk <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Spinach soup with clam</p>
+			      <h4 class="text-uppercase menu-title">L27. Buguh Kongnamul Guk <i class="fas fa-dollar-sign"></i>10.99</h4>
+			      <p>Bean sprout soup with dried pollack slices</p>
+			      <h4 class="text-uppercase menu-title">L28. Chogi Gui <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Grilled Croaker</p>
+			      <h4 class="text-uppercase menu-title">L29. Godeunguh Gui <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Grilled Mackerel</p>
+			      <h4 class="text-uppercase menu-title">L30. Samchi Gui <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Grilled King Fish</p>
+			      <h4 class="text-uppercase menu-title">L31. Eemyunsu Gui <i class="fas fa-dollar-sign"></i> 10.99</h4>
+			      <p>Grilled King Fish</p>
+			      <h4 class="text-uppercase menu-title">L32. Godeunguh + Doenjang <i class="fas fa-dollar-sign"></i> 14.99</h4>
+			      <p>Grilled Mackerel + L16</p>
+			      <h4 class="text-uppercase menu-title">L33. Minuh + Doenjang <i class="fas fa-dollar-sign"></i> 14.99</h4>
+			      <p>Grilled Croaker + L16</p>
+			    <br>
+			  <h2 id="bbq" class="text-uppercase font-weight-bold">BBQ</h2>
+			  <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 85px;">
+			  <h3>BBQ Grilled at your Table</h3>
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">B1. Yangnyum Galbi Gui <i class="fas fa-dollar-sign"></i>  29.99</h4>
+			      <p>Grilled Beef Short Ribs marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">B2. Saeng Galbi Gui <i class="fas fa-dollar-sign"></i> 31.99</h4>
+			      <p>Grilled Beef Short Ribs not marinated</p>
+			      <h4 class="text-uppercase menu-title">B3. Suwon Galbi Gui <i class="fas fa-dollar-sign"></i> 31.99</h4>
+			      <p>Grilled Beef Short Ribs marinated in light house special sauce</p>
+			      <h4 class="text-uppercase menu-title">B4. Deungsim Jumulluk <i class="fas fa-dollar-sign"></i> 31.99</h4>
+			      <p>Grilled Tender Rib Eye marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">B5. Steak <i class="fas fa-dollar-sign"></i> 30.99</h4>
+			      <p>Grilled Prime Rib Eye Steak</p>
+			      <h4 class="text-uppercase menu-title">B6. Seoksoe Bulgogi <i class="fas fa-dollar-sign"></i> 21.99</h4>
+			      <p>Grilled sliced beef tender sirloin marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">B7. Samgyeopsal Gui <i class="fas fa-dollar-sign"></i> 21.99</h4>
+			      <p>Grilled slice of three-layered pork belly not marinated</p>
+			      <h4 class="text-uppercase menu-title">B8. Ogyeopsal<i class="fas fa-dollar-sign"></i> 22.99</h4>
+			      <p>Grilled thick fatty slice of pork belly not marinated</p>
+			      <h4 class="text-uppercase menu-title">B9. Chadolbagi <i class="fas fa-dollar-sign"></i> 21.99</h4>
+			      <p>Grilled beef brisket thinly sliced and not marinated</p>
+			      <h4 class="text-uppercase menu-title">B10. Hyumit Gui <i class="fas fa-dollar-sign"></i> 25.99</h4>
+			      <p>Grilled tender beef tongue</p>
+			      <h4 class="text-uppercase menu-title">B11. Hang Jung Sal<i class="fas fa-dollar-sign"></i> 23.99</h4>
+			      <p>Grilled slice pork jowl meat nor marinated</p>
+			      <h4 class="text-uppercase menu-title">B12. Woo Samgyeopsal <i class="fas fa-dollar-sign"></i> 23.99</h4>
+			      <p>Grilled slcied beef belly not marinated</p>
+			      <h4 class="text-uppercase menu-title">B13. LA Galbi <i class="fas fa-dollar-sign"></i> 26.99</h4>
+			      <p>Beef short ribs marinated</p>
+			     <br>
+			   <h3>BBQ Grilled in the Kitchen</h3>
+			     <br>
+			      <h4 class="text-uppercase menu-title">BK1. Galbi Gui <i class="fas fa-dollar-sign"></i> 29.99</h4>
+			      <p>Grilled Beef Short Ribs marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">BK2. Yetnal Bulgogi (Order taken by 2 servings)  <i class="fas fa-dollar-sign"></i> 25.99</h4>
+			      <p>Broiled sliced Beef tender Siriloin marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">BK3. Bulgogi <i class="fas fa-dollar-sign"></i> 21.99</h4>
+			      <p>Grilled sliced Beef tender Siriloin marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">BK4. Jeyuk Gui <i class="fas fa-dollar-sign"></i> 20.99</h4>
+			      <p>Grilled sliced Pork in hot spicy sauce</p>
+			      <h4 class="text-uppercase menu-title">BK5. Dak Gui <i class="fas fa-dollar-sign"></i> 19.99</h4>
+			      <p>Grilled boneless Chicken marinated in spicy sauce</p>
+			      <h4 class="text-uppercase menu-title">BK6. Chicken Teriyaki <i class="fas fa-dollar-sign"></i> 19.99</h4>
+			      <p>Grilled boneless Chicken with teriyaki sauce</p>
+			      <h4 class="text-uppercase menu-title">BK8. Salmon Teriyaki <i class="fas fa-dollar-sign"></i> 20.99</h4>
+			      <p>Grilled Salmon glazed with teriyaki sauce</p>
+			      <h4 class="text-uppercase menu-title">BK9. LA Galbi + Naeng Myeon <i class="fas fa-dollar-sign"></i>  19.99</h4>
+			      <p>Combination of grilled beef short ribs marinated in hosue special sauce &#38; refreshing cold noodles made from buckwheat</p>
+			      <h4 class="text-uppercase menu-title">B10. Bulgogi + Naeng Myeon <i class="fas fa-dollar-sign"></i> 17.99</h4>
+			      <p>Combination of grilled sliced beef sirloin &#38; refreshing cold noodles made from buckwheat</p>
+			      <h4 class="text-uppercase menu-title">B11. LA Galbi <i class="fas fa-dollar-sign"></i> 24.99</h4>
+			      <p>Grilled Beef Short Ribs marinated in house special sauce</p>
+			      <h4 class="text-uppercase menu-title">B12. Tong Ojingeo Gui <i class="fas fa-dollar-sign"></i> 17.99</h4>
+			      <p>Spicy Korean grilled squid</p>
+			   <br>
+			 <h2 id="hotpot" class="text-uppercase font-weight-bold">Hot Pot</h2>
+			 <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 150px;">
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">H1. Haemul Jeongol <i class="fas fa-dollar-sign"></i> 39.99</h4>
+			      <p>Hot and spicy stew with assorted seafood and vegetables cooked at your table</p>
+			      <h4 class="text-uppercase menu-title">H2. Gobchang Jeongol <i class="fas fa-dollar-sign"></i> 39.99</h4>
+			      <p>Spicy stew of beef intestine, tripe, noodles, and vegetables in beef broth cooked at your table</p>
+			      <h4 class="text-uppercase menu-title">H3. Bul Nak Jeongol <i class="fas fa-dollar-sign"></i> 39.99</h4>
+			      <p>Spicy stew of marinated beef, seasoned octopus, noodles and vegetables in beef broth</p>
+			      <h4 class="text-uppercase menu-title">H4. Kimchi Jjim <i class="fas fa-dollar-sign"></i> 39.99</h4>
+			      <p>Spicy stew of kimchi, pork, and vegetables in beef broth cooked at your table</p>
+			      <h4 class="text-uppercase menu-title">H5. Yumso Jeongol <i class="fas fa-dollar-sign"></i> 39.99</h4>
+			      <p>Spicy stew of goat and vegetables cooked at your table</p>
+			    <br>
+			  <h2 id="noodles" class="text-uppercase font-weight-bold">Noodles</h2>
+			  <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 170px;">
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">N1. Mul Naengmyeon <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Cold noodles made from buckwheat served in chilled beef broth topped with sliced beef briskets and vegetables</p>
+			      <h4 class="text-uppercase menu-title">N2. Bibim Naengmyeon <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Cold noodles made from buckwheat served with spicy red pepper dressing topped with sliced beef briskets, vegetables, and hard boiled egg cut</p>
+			      <h4 class="text-uppercase menu-title">N3. hoe Naengmyeon <i class="fas fa-dollar-sign"></i> 12.99</h4>
+			      <p>Bibim Naengmyeon with marinated raw fish</p>
+			      <h4 class="text-uppercase menu-title">N4. Haemul Kalguksu <i class="fas fa-dollar-sign"></i> 12.99</h4>
+			      <p>Thick noodles with seafood and vegetables</p>
+			      <h4 class="text-uppercase menu-title">N5. Kongguksu (Acorn Noodles + $1) <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Noodles in cold soybean soup</p>
+			    <br>
+			  <h2 id="bibimbap" class="text-uppercase font-weight-bold">Bibimbap</h2>
+			  <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 170px;">
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">BB1. Bibimbap <i class="fas fa-dollar-sign"></i> 11.99</h4>
+			      <p>Warm white rice topped with sauteed and seasoned vegetables and beef or chicken topped with sunny side up egg usually mixed with red pepper paste</p>
+			      <h4 class="text-uppercase menu-title">BB2. Dolpan Bibimbap <i class="fas fa-dollar-sign"></i> 13.99</h4>
+			      <p>Bibimbap in sizzling stone pot with your choice of beef or chicken usually mixed with red pepper paste</p>
+			      <h4 class="text-uppercase menu-title">BB3. Nakji Dolsot Bibimbap <i class="fas fa-dollar-sign"></i>  15.99</h4>
+			      <p>Bibimbap in sizzling stone pot with octopus and vegetables stir fried together usually mixed with red pepper paste </p>
+			      <h4 class="text-uppercase menu-title">BB4. Galbisal Dolsot Bibimbap <i class="fas fa-dollar-sign"></i> 15.99</h4>
+			      <p>Bibimbap in sizzling stone pot with boneless prime rib chucks and vegetables stir fried together ususally mixed with red pepper paste</p>
+			      <h4 class="text-uppercase menu-title">BB5. Yuk Hoe Bibimbap <i class="fas fa-dollar-sign"></i> 17.99</h4>
+			      <p>Warm white rice topped with sauteed and seasoned vegetables and thinly julienned and seasoned steak tartare of the tenderest part of beef, topped with a sunny side up egg usually mixed with red pepper paste</p>
+			    <br>
+			  <h2 id="seafood" class="text-uppercase font-weight-bold">Seafood</h2>
+			  <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 170px;">
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">SF1. Agu Jjim <i class="fas fa-dollar-sign"></i> 35.99</h4>
+			      <p>Steamed fresh monkfish stalked sea squirt, bean sprout, and Korean water crest in spicy house sauce</p>
+			      <h4 class="text-uppercase menu-title">SF2. Eun Daegu Jjim <i class="fas fa-dollar-sign"></i> 39.99</h4>
+			      <p>Steamed Cod with assorted vegetables in spicy house sauce</p>
+			      <h4 class="text-uppercase menu-title">SF3. Haemul Jjim <i class="fas fa-dollar-sign"></i> 39.99</h4>
+			      <p>Steamed mussels, Octopus, Ocellatus, crab, squid, bean sprouts with assorted vegetables in spicy house sauce</p>
+			      <h4 class="text-uppercase menu-title">SF4. Galchijorim <i class="fas fa-dollar-sign"></i> 35.99</h4>
+			      <p>Steamed beltfish with assorted vegetables in spicy house sauce</p>
+			      <h4 class="text-uppercase menu-title">SS1. Saeng Daegu Maeuntang <i class="fas fa-dollar-sign"></i> 19.99</h4>
+			      <p>Refreshing hot spicy stew of cod with assorted vegetables and tofu</p>
+			      <h4 class="text-uppercase menu-title">SS2. Agu Maeuntang <i class="fas fa-dollar-sign"></i> 17.99</h4>
+			      <p>Refreshing hot and spicy stew of fresh monkfish with assorted vegetables and tofu</p>
+			      <h4 class="text-uppercase menu-title">SS3. Kotgae Maeuntang <i class="fas fa-dollar-sign"></i> 18.99</h4>
+			      <p>Refreshing hot and spicy stew of fresh crab with assorted vegetables and tofu</p>
+			      <h4 class="text-uppercase menu-title">SS4. Al Tang <i class="fas fa-dollar-sign"></i> 17.99</h4>
+			      <p>Refreshing hot and spicy stew of fresh pollack spawn with assorted vegetables and tofu</p>
+			    <br>
+			  <h2 id="cultural-cuisine" class="text-uppercase font-weight-bold">Cultural Cuisine</h2>
+			  <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 320px;">
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">C1. Yulhoe <i class="fas fa-dollar-sign"></i> 24.99</h4>
+			      <p>Thinly julienned and seasoned steak tartare of the tenderest part of beef accented with a sunny side up egg on top</p>
+			      <h4 class="text-uppercase menu-title">C2. Yangnyeom Gejang <i class="fas fa-dollar-sign"></i> 25.99</h4>
+			      <p>Raw crabs in spicy sauce</p>
+			      <h4 class="text-uppercase menu-title">C3. Doeji Bossam <i class="fas fa-dollar-sign"></i> 34.99</h4>
+			      <p>Steamed pork slices accompanied with leaf vegetable wraps, oyster, spicy julienned daikon kimchi, and house special sauce</p>
+			      <h4 class="text-uppercase menu-title">C4. Maeun Galbi Jjim <i class="fas fa-dollar-sign"></i> 39.99</h4>
+			      <p>Steamed beef short ribs with assorted vegetables in spicy house sauce</p>
+			    <br>
+			  <h2 id="drinks" class="text-uppercase font-weight-bold">Drinks</h2>
+			  <hr class="line mb-4 mt-0 d-inline-block mx-auto" style="width: 130px;">
+		        <br>
+		      	  <h4 class="text-uppercase menu-title">Soju</h4>
+		      	  <p>Most Popular Korean Liquour</p>
+			      <h4 class="text-uppercase menu-title">Fruit Flavored Soju</h4>
+			      <p>Apple, Peach, Yuzu, Grapefruit, White Grapes</p>
+			      <h4 class="text-uppercase menu-title">Beer</h4>
+			      <p>Domestic / Imported</p>
+			      <h4 class="text-uppercase menu-title">Saeng Makgeolli</h4>
+			      <p>Korean Rice Wine</p>
+			      <h4 class="text-uppercase menu-title">Sake</h4>
+			      <p>Japanese Rice Wine</p>
+			      <h4 class="text-uppercase menu-title">Bokbunja</h4>
+			      <p>Korean Raspberry Wine</p>
+			      <h4 class="text-uppercase menu-title">Baekseju Herbal Wine</h4>
+			      <p>Korean Herbal Wine</p>
+			      <h4 class="text-uppercase menu-title">Soda</h4>
+			      <p>Coca-cola, Sprite, Fanta Orange, Dr Pepper</p>
+		    </div>
+		    </div>
+  		</div>
+	  </div>
+	</div>
+</section> 
+<!-- End of Menu -->
+<!-- Footer -->
+<footer class="page-footer">
+	<!-- Footer Links -->
+	<div class="container text-center text-md-left mt-5">
+		<!-- Grid Row -->
+		<div class="row mt-3">
+			<!-- Grid column -->
+			<div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+				<!-- content -->
+				<h6 class="text-uppercase font-weight-bold footer-titles">SEOUL GARDEN</h6>
+					<p>Seoul Garden is one of the few Korean restaurants in Dallas to still use charcoals in grills to provide best taste.</p>
+					<br>
+					<p class="text-uppercase font-weight-bold">
+						<i class="far fa-clock"></i> Opening Hours <br>
+						11:00 AM  &#45; 10:00 PM
+					</p>
+			</div>
+			<!-- Grid Column -->
+			<div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+				<!-- content -->
+				<h6 class="text-uppercase font-weight-bold footer-titles">Contact</h6>
+					<p>
+						<i class="fas fa-map-marker-alt"></i>  2502 Royal Ln, Dallas, TX 75229 USA
+					</p>
+					<p>
+						<i class="fas fa-phone"></i>  &#40;972&#41; &#45; 484 &#45; 6090
+					</p>
+					<p class="footer-links">
+						<a href="https://www.facebook.com/Seoul-Garden-117690571590413/" target="_blank"><i class="fab fa-facebook-square"></i> FaceBook</a>
+					</p>
+					<p class="footer-links">
+						<a href="https://www.instagram.com/seoulgardendallas/" target="_blank"><i class="fab fa-instagram"></i> Instagram </a>
+					</p>
+					<p class="footer-links">
+						<a href="https://www.yelp.com/biz/seoul-garden-dallas" target="_blank"><i class="fab fa-yelp"></i> Yelp</a>
+					</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<p class="text-center">Copyright &copy; Dancel 2020. All Rights Reserved</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
