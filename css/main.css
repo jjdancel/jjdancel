@@ -55,6 +55,12 @@ td {
 	font-family: 'Sen', sans-serif;
 	text-transform: uppercase;
 }
+.dropdown-menu a {
+	color: white !important;
+}
+.dropdown-item {
+	color: white;
+}
 .bg-dark {
 	background-color: black !important;
 }
