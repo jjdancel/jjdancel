@@ -50,16 +50,13 @@ td {
 	font-size: 28px;
 }
 .dropdown-menu {
-	color: white !important;
+	color: white;
 	background-color: black;
 	font-family: 'Sen', sans-serif;
 	text-transform: uppercase;
 }
-.dropdown-menu a {
-	color: white !important;
-}
 .dropdown-item {
-	color: white !important;
+	color: white;
 }
 .bg-dark {
 	background-color: black !important;
