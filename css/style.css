@@ -1,6 +1,22 @@
 * {
 	box-sizing: border-box;
 }
+@media (min-width: 414px) {  
+  .display-3 {
+  	font-size: 3.5rem;
+  }
+  .display-2 {
+  	font-size: 15px;
+  }
+}
+@media (min-width: 992px) { 
+  .display-3 {
+  	font-size: 4.5rem;
+  }
+  .display-2 {
+  	font-size: 5.5rem;
+  }
+}
 h1 {
 	font-family: 'Sen', sans-serif;
 	font-size: 85px;
