@@ -1,6 +1,23 @@
 * {
 	box-sizing: border-box;
 }
+@media (min-width: 414px) {  
+
+  .display-3 {
+  	font-size: 3.5rem;
+  }
+  .display-2 {
+  	font-size: 15px;
+  }
+}
+@media (min-width: 992px) { 
+  .display-3 {
+  	font-size: 4.5rem;
+  }
+  .display-2 {
+  	font-size: 5.5rem;
+  }
+}
 a {
 	text-decoration: none;
 }
@@ -149,6 +166,12 @@ td {
 .reserve-now a:link, a:visited, a:hover, a:active  {
 	text-decoration: none;
 	color: white;
+}
+.reservation-day {
+	margin: 35px;
+}
+.reservation-time {
+	margin: 35px;
 }
 .food {
 	width: 50%;
